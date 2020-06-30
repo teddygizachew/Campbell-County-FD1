@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Campbell County Fire District 1</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Introduction to HTML">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Group Web Design Project">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="Index/style.css">
+        <link rel="shortcut icon" type="image/png" href="Images/logo.gif">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <style type="text/css">
+          
+        </style>
+
+    </head>
+
+    <body>
+        <section class="header1">
+            <div class="flex-container-head">
+              <div class="campbell-logo">
+                  <a href="index.html"><img class="campbell-image" src="Images/logo.gif" alt="Campbell County Fire District logo"/></a>
+              </div>
+              <div class="campbell-title">
+                <a href="index.html" class="titlehover"><h2>CAMPBELL COUNTY FIRE DISTRICT 1</h2></a>
+              </div>
+            </div>
+        </section>
+
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-#FFC72C">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"></div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"  id="active">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="photos.html">Photos</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="news.html">News/Events</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="public.html">Public Ed.</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="forms.html">Forms</a>
+                </li> -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Forms
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="https://8ea89a5c-3a40-453d-9ea1-ea967c6b06da.filesusr.com/ugd/148a41_c8748e316d2444d78766e9cf835a3f7d.pdf" target="_blank">Volunteer Application</a>
+                    <a class="dropdown-item" href="https://8ea89a5c-3a40-453d-9ea1-ea967c6b06da.filesusr.com/ugd/148a41_3e50981aade34a01b176040351f23052.pdf" target="_blank">Burn Permits</a>
+                    <a class="dropdown-item" href="https://8ea89a5c-3a40-453d-9ea1-ea967c6b06da.filesusr.com/ugd/148a41_a389d59263ce41c48bd918968faa1deb.pdf" target="_blank">Employment Application</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactus">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="members.html">Members Portal</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        
+        <section class="introduction">
+          <aside>
+            <h2>Coronavirus Tip!</h2>
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <img class="emoji" src="Images/house.png" alt="house" class="rel"/>
+                  <h3>Stay At Home</h3>
+                </div>
+                <div class="col">
+                  <img class="emoji" src="Images/wash.png" alt="house" class="rel"/>
+                  <h3>Wash Your Hands</h3>
+                </div>
+                <div class="col">
+                  <img class="emoji" src="Images/Coughing.png" alt="couughing emoji" class="rel"/>
+                  <h3>Cover Your Cough</h3>
+                </div>
+              </div>
+          </aside>
+          <div class="card mb-3">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="CCFDImages/ccfd7.jpg" class="d-block1 w-100" alt="Department picture 1" style="max-width: 100%; height: 400px !important;">
+                  <div class="carousel-caption d-none d-md-block" id="carousel-text">
+                    <!-- <h5>First slide label</h5> -->
+                    <p>The staff at Campbell County Fire District #1 would like to thank the City of Silver Grove for dinner on April 15. The city provided food from Pelles, Pepperoncini's and The Dari Bar</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="CCFDImages/ccfd8.jpg" class="d-block2 w-100" alt="Department picture 2" style="width: 500px; height: 400px">
+                  <div class="carousel-caption d-none d-md-block" id="carousel-text">
+                    <!-- <h5>Second slide label</h5> -->
+                    <p>Our Fire Department Family</p>
+                    <p>December 18, 2019</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="CCFDImages/ccfd10.jpg" class="d-block3 w-100" alt="Department picture 3" style="width: 500px; height: 400px">
+                  <div class="carousel-caption d-none d-md-block" id="carousel-text">
+                    <!-- <h5>Third slide label</h5> -->
+                    <p>We are here to support you at all times!</p>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            
+            <div class="card-body" id="maincardbody">
+              <h3 class="card-title">Campbell County Fire District 1</h3>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="middlecontent">
+          <div class="firstcontent">
+            <div class="middlecontent1">
+              <div class="jumbotron">
+                <h1 class="display-4">News and Events</h1>
+                <p class="lead">Campbell County Fire District #1 would like to wish all our friends and families a Happy Holidays!</p>
+                <hr class="my-4">
+                <p>Old man Winter has finally arrived. Check out our Public Information tab to learn how you can protect you and your loved ones this winter season!</p>
+                <p class="lead">
+                  <a class="btn btn-info btn-lg" href="news.html" role="button">Learn more</a>
+                </p>
+              </div>
+            </div>
+            <div class="middlecontent2">
+              <div class="jumbotron">
+                <h1 class="display-4">Public Education</h1>
+                <p class="lead">Did you know that today, if your home broke out in fire,
+                  you would have less than three minutes to escape safely?</p>
+                <hr class="my-4">
+                <p>Forty years ago, a person had about 17 minutes to escape a burning home. Evolutions in furnishings, homes incorporating more open layouts, and lightweight construction materials, allow fires to spread much quicker.</p>
+                <p>But luckily, the simple action of closing your bedroom door before going to sleep can help slow the spread of smoke, heat, and fire.</p>
+                <p class="lead">
+                  <a class="btn btn-info btn-lg" href="public.html" role="button">Learn more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="firstcontent">
+            <div class="middlecontent1">
+              <div class="jumbotron">
+                <h1 class="display-4">Join Our Team</h1>
+                <p class="lead">Looking for compassionate, enthusiastic and motivated people to join our team. Being a volunteer is a rewarding way to give back to your community.</p>
+                <hr class="my-4">
+                <p>Apply today by clicking the button below for our volunteer application. Fill out and complete the application and return it to one of our stations.</p>
+                <p>Stop by one of our stations and talk to the guys and gals on our team to get more information on how you can serve your community in the fire service</p>
+                <p class="lead">
+                  <a class="btn btn-info btn-lg" href="https://8ea89a5c-3a40-453d-9ea1-ea967c6b06da.filesusr.com/ugd/148a41_c8748e316d2444d78766e9cf835a3f7d.pdf" target="_blank" role="button">Volunteer Application</a>
+                </p>
+              </div>
+            </div>
+            <div class="middlecontent2">
+              <div class="jumbotron">
+                <h1 class="display-4">Smart 911</h1>
+                <p class="lead">With Smart911, you can provide 9-1-1 call takers and first responders critical information you want them to know in any kind of emergency.</p>
+                <hr class="my-4">
+                <p>When you call 9-1-1, your Smart911 Safety Profile displays on the 9-1-1 screen and the 9-1-1 call takers can view your addresses, medical information, home information, description of pets and vehicles, and emergency contacts. You can provide as much or as little information as you like.</p>
+                <p class="lead">
+                  <a class="btn btn-info btn-lg" href="https://www.smart911.com/" target="_blank" role="button">Smart 911 Link</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="firstcontent">
+            <div class="middlecontent1">
+              <div class="jumbotron">
+                <h1 class="display-4">Locations</h1>
+                <hr class="my-4">
+                <h5>Station 51</h5>
+                <p>5011 Four Mile Road, Silver Grove, KY 41085</p>
+                <p>(859) 441-6251</p>
+                <h5>Station 52</h5>
+                <p>3707 Smith Road, California, KY 41007</p>
+                <p>(859) 635-4196</p>
+                <h5>Station 53</h5>
+                <p>6844 Four Mile Road, Melbourne, KY 41059</p>
+                <p>(859) 635-9255​</p>
+                <p class="lead">
+                  <a class="btn btn-info btn-lg" href="news.html" role="button">Learn more</a>
+                </p>
+              </div>
+            </div>
+            <div class="middlecontent2">
+              <div class="jumbotron">
+                <h1 class="display-4">Burn Permits</h1>
+                <p class="lead" >Need a burn permit?</p>
+                <hr class="my-4">
+                <p>Save some time by filling out our online form. Turn the completed form to one of our stations or email it to us.</p>
+                <p>Burn permits are available from October 1st thru April 30th.</p>
+                <p>For more information click on the button below.</p>
+                <p class="lead">
+                  <a class="btn btn-info btn-lg" href="https://8ea89a5c-3a40-453d-9ea1-ea967c6b06da.filesusr.com/ugd/148a41_3e50981aade34a01b176040351f23052.pdf" target="_blank" role="button">Learn more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+
+        <main>
+          <div class="card" id="contactus">
+              <div class="card-header">
+                  <p class="text-warning">Contact Us</p>
+              </div>
+              <div class="card-body">
+                <div class="thecard1">
+                  <p>6844 Four Mile Road</P>
+                    <p>Melbourne, KY 41059</p>
+                        
+                      Tel: (859) 635-9255
+                    <p>*Records request please email*</p>
+                </div>
+                <div class="thecard2">
+                  <h5>Join our mailing list</h5>
+                  <form class="form-2">
+                      <label>Name: <input type="text" name="name" id="name"></label><br>
+                      <label>Email: <input type="text" name="email" id="email"></label><br>
+                      <input type="submit" class="submit">
+                      <input type="reset">
+                  </form>
+                </div>
+                  <hr class="h2">
+                  <!-- <a href="https://map.nku.edu" class="btn btn-dark">Map + Directions</a> -->
+              </div>
+          </div>
+        </main>
+
+        <footer>
+          <div class="thecontainer">
+            <div class="therow">
+              <div class="thecolumn">
+                &copy; CAMPBELL COUNTY 2020
+              </div>
+              <div class="thecolumn" id="parts">
+                <div class="part1">
+                  Follow us on Social Media
+                </div>
+                <div class="part2">
+                  <a href="https://www.facebook.com/ccfd1ky/" target="_blank">
+                    <img width="30" src="https://tighestimepieces.com/wp-content/uploads/2016/11/Facebook-icon-WHITE.png" alt="Facebook">
+                  </a>
+                  <a href="https://twitter.com/home">
+                    <img width="30" src="https://futurimedia.com/wp-content/uploads/2017/03/twitter-512.png" alt="twitter">
+                  </a>
+                  <a href="https://www.instagram.com/">
+                    <img width="30" src="https://tighestimepieces.com/wp-content/uploads/2016/11/Instagram-icon-WHITE.png" alt="instagram">
+                  </a>
+                </div>
+              </div>
+              <div class="thecolumn">
+                #STAY AT HOME
+              </div>
+            </div>
+        </footer>
+    </body>
+</html>

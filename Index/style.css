@@ -1,0 +1,277 @@
+:root {
+    --brand-primary-color: #081424;
+    --brand-secondary-color: #f6041a;
+    --brand-tertiary-color: #fff801;
+}
+
+::selection {
+    background-color: var(--brand-secondary-color);
+    color: var(--brand-primary-color);
+}
+
+#carousel-text {
+    background-color: rgb(0, 0, 0, 0.6) !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dbe5e6 !important;
+}
+
+main {
+    margin: 50px;
+}
+
+nav {
+    background: #081424;
+    padding: 10px !important;
+}
+
+.nav-link {
+    color: #fff801 !important;
+}
+
+.titlehover {
+    color: #fff801;
+    text-decoration: none !important;
+}
+
+.titlehover:hover {
+    color: #fff801 !important;
+}
+
+li a:hover {
+    color: #f6041a !important;
+}
+
+a {
+    justify-content: center;
+    font-size: 18px !important;
+}
+
+.flex-container-head {
+    margin: 0;
+    padding: 10px 5px 10px 5px;
+    background-color: var(--brand-primary-color);
+    /* #062134 */
+    display: flex;
+    flex-direction: column;
+}
+
+.campbell-logo{
+    text-align: center;
+    flex: 1;
+}
+
+.campbell-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.campbell-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff801;
+    text-align: center;
+    flex: 1;
+}
+
+.introduction {
+    padding: 75px 50px 20px 50px;
+    background-color: #dbe5e6;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.card {
+    background-color: #062134 !important;
+    color: #fff !important;
+}
+
+.thecard1 {
+    width: 100%;
+    text-align: center;
+}
+.thecard2 {
+    width: 100%;
+    text-align: center;
+}
+
+.card-body {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.card-header {
+    margin: 10px !important;
+    text-align: center;
+}
+.card-header p{
+    font-size: 25px;
+    color: #fff !important;
+}
+
+@media screen and (min-width: 640px) {
+    .flex-container-head {
+        display: flex;
+        flex-direction: row;
+    }
+    .introduction {
+        /* display: flex;
+        flex-direction: row; */
+        padding: 10px 150px 10px 150px !important;
+        /* background-color: #383838; */
+    }
+    .campbell-logo img {
+        width: 100px;
+        height: 100px;
+    }
+    .campbell-logo {
+        /* width: 75px;
+        height: 75px;
+        margin: 0;
+        padding: 0; */
+        flex: 0 1 auto;
+        text-align: center;
+        vertical-align: center;
+        display: inline-flex;
+        padding: 20px;
+    }
+    .campbell-title {
+        flex: 0 1 auto;
+        padding-top: 26px;
+    }
+    .campbell-title h2 {
+        margin-top: 20px;
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .card-header {
+        margin: 40px !important;
+    }
+    #maincardbody{
+        flex-direction: column !important;
+    }
+    .card-body {
+        display: flex !important;
+        flex-direction: row !important;
+        text-align: center;
+    }
+    .thecard1 {
+        width: 100%;
+        text-align: center;
+    }
+    .thecard2 {
+        width: 100%;
+        text-align: center;
+    }
+    footer {
+        padding: 50px !important;
+    }
+    .therow {
+        display: flex;
+        flex-direction: row !important;
+        width: 100%;
+    }
+    .middlecontent {
+        min-height: 90vh;
+        /* display: flex;
+        flex-direction: row; */
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .firstcontent {
+        display: flex;
+        flex-direction: row;
+    }
+    .middlecontent1, .middlecontent2, .middlecontent3 {
+        padding: 10px !important;
+        flex: 0 0 50% !important;
+    }
+    .middlecontent h1 {
+        font-size: 35px !important;
+        font-weight: 500;
+        text-align: center !important;
+    }
+    .emoji{
+        height:150px !important;
+        width: auto;
+        position: relative;
+    }
+}
+
+#active {
+    color: red !important;
+}
+
+.jumbotron {
+    height: 100%;
+}
+
+.middlecontent1, .middlecontent2, .middlecontent3 {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+#name, #email {
+    width: 100%;
+}
+
+footer {
+    background-color: var(--brand-primary-color);
+    color: #fff;
+    padding: 60px 20px 60px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.therow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.therow .thecolumn{
+    padding: 15px 0 15px 0;
+    width: 100%;
+}
+
+#parts{
+    display: flex;
+    flex-direction: column;
+}
+
+#parts a{
+    text-decoration: none;
+}
+
+/* Tip */
+aside{
+    background-color: #1aa1b5;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0px;
+    border: 5px solid #000;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.col h3 {
+    font-size: 20px;
+}
+
+.emoji{
+    height:100px;
+    width: auto;
+    position: relative;
+}

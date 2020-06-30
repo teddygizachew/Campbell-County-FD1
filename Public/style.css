@@ -1,0 +1,210 @@
+:root {
+    --brand-primary-color: #081424;
+    --brand-secondary-color: #f6041a;
+}
+
+::selection {
+    background-color: var(--brand-secondary-color);
+    color: var(--brand-primary-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container-head {
+    margin: 0;
+    padding: 10px 5px 10px 5px;
+    background-color: var(--brand-primary-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.campbell-logo{
+    text-align: center;
+    flex: 1;
+}
+
+.campbell-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.campbell-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff801;
+    text-align: center;
+    flex: 1;
+}
+
+.introduction {
+    margin: 100px 200px 100px 200px;
+    background-color: #383838;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav { background: #081424; padding: 10px !important; }
+.titlehover { color: #fff801; text-decoration: none !important; }
+.titlehover:hover { color: #fff801 !important; }
+.nav-link { color: #fff801 !important; }
+li a:hover {color: #f6041a !important; }
+a{ justify-content: center; font-size: 18px !important; }
+
+.public{
+    background-color: black;
+    padding: 20px;
+}
+
+.maintitle{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 640px) {
+    .flex-container-head {
+        display: flex;
+        flex-direction: row;
+    }
+    .campbell-logo img {
+        width: 100px;
+        height: 100px;
+    }
+    .campbell-logo {
+        /* width: 75px;
+        height: 75px;
+        margin: 0;
+        padding: 0; */
+        flex: 0 1 auto;
+        text-align: center;
+        vertical-align: center;
+        display: inline-flex;
+        padding: 20px;
+    }
+    .campbell-title {
+        flex: 0 1 auto;
+        padding-top: 26px;
+    }
+    .campbell-title h2 {
+        margin-top: 20px;
+        font-family: sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .notes {
+        padding: 10px 100px 150px 100px;
+    }
+    .about .notes p{
+        font-size: 20px;
+        padding: 0px 100px 0px 100px;
+    }
+    .about .notes-title {
+        font-size: 50px;
+        font-weight: 500px;
+    }
+    .public{
+        background-color: rgb(58, 55, 55);
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    .subtitle{
+        text-align: center;
+        font-size: xx-large;
+        font-weight: 1000;
+    }
+    .maintitle{
+        text-align: center;
+        font-size: xx-large;
+        font-weight: 1000;
+        font-style: italic;
+        color: white;
+    }
+    footer {
+        padding: 50px !important;
+    }
+    .therow {
+        display: flex;
+        flex-direction: row !important;
+        width: 100%;
+    }
+}
+
+#active {
+    color: red !important;
+}
+
+.public{
+    background-color: #dbe5e6;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.maintitle { 
+    color: #000 !important;
+}
+
+.about .notes {
+    font-size: 16px;
+    padding: 20px 40px 50px 40px;
+}
+
+.notes-title {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+
+footer {
+    background-color: var(--brand-primary-color);
+    color: #fff;
+    padding: 60px 20px 60px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.therow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.therow .thecolumn{
+    padding: 15px 0 15px 0;
+    width: 100%;
+}
+
+#parts{
+    display: flex;
+    flex-direction: column;
+}
+
+#parts a{
+    text-decoration: none;
+}
+
+.cold{
+    /* background-color: aliceblue; */
+    border-radius: 2%;
+    border: 5px solid #000;
+    margin: 20px 20px;
+    padding: 20px;
+    color: #fff;
+    max-height: 100% !important;
+}
+
+a.btn.btn-primary{
+    width: 100% !important;
+}

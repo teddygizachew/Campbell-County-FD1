@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Campbell County Fire District 1</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="Introduction to HTML">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Group Web Design Project">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="Public/style.css">
+        <link rel="shortcut icon" type="image/png" href="Images/logo.gif">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <style type="text/css">
+          #picture1 {
+            max-height: 100vh;
+            background-image: url("Images/storm2.jpg"); background-size: cover; background-position: center; padding: 10px; position: relative;
+          }
+          #picture2 {
+            max-height: 100vh;
+            background-image: url("Images/prep2.jpg");  background-size: cover; background-position: center; padding: 10px; position: relative;
+          }
+          #picture3 {
+            max-height: 100vh;
+            background-image: url("Images/survive2.jpg"); background-size: cover; background-position: center; padding: 10px; position: relative;
+          }
+          #picture4 {
+            max-height: 100vh;
+            background-image: url("Images/respond2.jpg"); background-size: cover; background-position: center; padding: 10px; position: relative;
+          }
+        </style>
+    </head>
+
+    <body>
+      <section class="header1">
+          <div class="flex-container-head">
+                  <div class="campbell-logo">
+                    <a href="index.html"><img class="campbell-image" src="Images/logo.gif" alt="Campbell County Fire District logo"/></a>
+                  </div>
+                  <div class="campbell-title">
+                    <a href="index.html" class="titlehover"><h2>CAMPBELL COUNTY FIRE DISTRICT 1</h2></a>
+                  </div>
+          </div>
+      </section>
+
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-#FFC72C">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse"></div>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="photos.html">Photos</a>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="news.html">News/Events</a>
+                </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#"  id="active">Public Ed.</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Forms
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="https://8ea89a5c-3a40-453d-9ea1-ea967c6b06da.filesusr.com/ugd/148a41_c8748e316d2444d78766e9cf835a3f7d.pdf" target="_blank">Volunteer Application</a>
+                  <a class="dropdown-item" href="https://8ea89a5c-3a40-453d-9ea1-ea967c6b06da.filesusr.com/ugd/148a41_3e50981aade34a01b176040351f23052.pdf" target="_blank">Burn Permits</a>
+                  <a class="dropdown-item" href="https://8ea89a5c-3a40-453d-9ea1-ea967c6b06da.filesusr.com/ugd/148a41_a389d59263ce41c48bd918968faa1deb.pdf" target="_blank">Employment Application</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html#contactus">Contact Us</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="members.html">Members Portal</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+      <main>
+        <section class="public">
+          <h1 class="maintitle"><u>Public Education</u></h1>
+          <div class="cold" id="picture1">
+            <div class="text">
+              <h1 class="subtitle"><u>Snowstorms & Extreme Cold</u></h1>
+              <p>Winter storms create a higher risk of car accidents, hypothermia,
+                frostbite, carbon monoxide poisoning, and heart attacks from overexertion.
+                Winter storms and blizzards can bring extreme cold, freezing rain, snow,
+                ice, and high winds. A winter storm can:</p>
+              <ul>
+                <li>Last a few hours or several days;</li>
+                <li>Knock out heat, power, and communication services; and</li>
+                <li>Place older adults, young children, and sick individuals at greater risk.</li>
+              </ul>
+              <p>IF YOU ARE UNDER A WINTER STORM WARNING, FIND SHELTER RIGHT AWAY</p>
+              <ul>
+                <li>Stay off roads.</li>
+                <li>Stay indoors and dress warmly.</li>
+                <li>Prepare for power outages.</li>
+                <li>Use generators outside only and away from windows.</li>
+                <li>Listen for emergency information and alerts.</li>
+                <li>Look for signs of hypothermia and frostbite.</il>
+                <li>Check on neighbors.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cold"  id="picture2">
+            <h1 class="subtitle"><u>Prepare NOW</u></h1>
+            <ul>
+              <li>Know your area’s risk for winter storms. Extreme winter weather can leave communities without utilities or other services for long periods of time.</li>
+              <li>Prepare your home to keep out the cold with insulation, caulking, and weather stripping. Learn how to keep pipes from freezing. Install and test smoke alarms and carbon monoxide detectors with battery backups.</li>
+              <li>Pay attention to weather reports and warnings of freezing weather and winter storms. Sign up for your community’s warning system. The Emergency Alert System (EAS) and National Oceanic and Atmospheric Administration (NOAA) Weather Radio also provide emergency alerts.</li>
+              <li>Gather supplies in case you need to stay home for several days without power. Keep in mind each person’s specific needs, including medication. Do not forget the needs of pets. Have extra batteries for radios and flashlights.</li>
+              <li>Create an emergency supply kit for your car. Include jumper cables, sand, a flashlight, warm clothes, blankets, bottled water, and non-perishable snacks. Keep the gas tank full.</li>
+              <li>Prepare for power outages.</li>
+              <li>Use generators outside only and away from windows.</li>
+              <li>Listen for emergency information and alerts.</li>
+              <li>Look for signs of hypothermia and frostbite.</il>
+              <li>Learn the signs of, and basic treatments for, frostbite and hypothermia.</li>
+            </ul>
+          </div>
+
+          <div class="cold"  id="picture3">
+            <h1 class="subtitle"><u>Survive DURING</u></h1>
+              <ul>
+                <li>Stay off roads if at all possible. If trapped in your car, then stay inside.</li>
+                <li>Limit your time outside. If you need to go outside, then wear layers of warm clothing. Watch for signs of frostbite and hypothermia.</li>
+                <li>Avoid carbon monoxide poisoning. Only use generators and grills outdoors and away from windows. Never heat your home with a gas stovetop or oven.</li>
+                <li>Reduce the risk of a heart attack. Avoid overexertion when shoveling snow.</li>
+                <li>Watch for signs of frostbite and hypothermia and begin treatment right away.</li>
+                <li>Look for signs of hypothermia and frostbite.</il>
+                <li>Check on neighbors. Older adults and young children are more at risk in extreme cold.</li>
+              </ul>
+          </div>
+
+          <div class="cold"  id="picture4">
+            <h1 class="subtitle"><u>RECOGNIZE AND RESPOND</u></h1>
+            <ul>
+              <li>Frostbite causes loss of feeling and color around the face, fingers, and toes.</li>
+            <ul>
+                <li>Signs: Numbness, white or grayish-yellow skin, firm or waxy skin</li>
+                <li>Actions: Go to a warm room. Soak in warm water. Use body heat to warm. Do not massage or use a heating pad.</li>
+            </ul>
+              <li>Hypothermia is an unusually low body temperature. A temperature below 95 degrees is an emergency.</li>
+              <ul>
+                <li>Signs: Shivering, exhaustion, confusion, fumbling hands, memory loss, slurred speech, or drowsiness</li>
+                <li>Actions: Go to a warm room. Warm the center of the body first—chest, neck, head, and groin. Keep dry and wrapped up in warm blankets, including the head and neck.</li>
+              </ul>
+            </ul>
+          </div> 
+        </section>
+      </main>
+
+      <footer>
+        <div class="thecontainer">
+          <div class="therow">
+            <div class="thecolumn">
+              &copy; CAMPBELL COUNTY 2020
+            </div>
+            <div class="thecolumn" id="parts">
+              <div class="part1">
+                Follow us on Social Media
+              </div>
+              <div class="part2">
+                <a href="https://www.facebook.com/ccfd1ky/" target="_blank">
+                  <img width="30" src="https://tighestimepieces.com/wp-content/uploads/2016/11/Facebook-icon-WHITE.png" alt="Facebook">
+                </a>
+                <a href="https://twitter.com/home">
+                  <img width="30" src="https://futurimedia.com/wp-content/uploads/2017/03/twitter-512.png" alt="twitter">
+                </a>
+                <a href="https://www.instagram.com/">
+                  <img width="30" src="https://tighestimepieces.com/wp-content/uploads/2016/11/Instagram-icon-WHITE.png" alt="instagram">
+                </a>
+              </div>
+            </div>
+            <div class="thecolumn">
+              #STAY AT HOME
+            </div>
+          </div>
+      </footer>
+    </body>
+</html>
